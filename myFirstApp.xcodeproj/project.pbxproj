@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EBDF56A16EBEEBA00166DF3 /* FriendStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBDF56916EBEEBA00166DF3 /* FriendStore.m */; };
 		7ECD323816EBBBAF00AA003D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD323716EBBBAF00AA003D /* Foundation.framework */; };
 		7ECD323B16EBBBAF00AA003D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD323A16EBBBAF00AA003D /* main.m */; };
 		7ECD323F16EBBBAF00AA003D /* myFirstApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ECD323E16EBBBAF00AA003D /* myFirstApp.1 */; };
+		7ECD324716EBBFCA00AA003D /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD324616EBBFCA00AA003D /* Friends.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +28,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7EBDF56816EBEEBA00166DF3 /* FriendStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendStore.h; path = ../FriendStore.h; sourceTree = "<group>"; };
+		7EBDF56916EBEEBA00166DF3 /* FriendStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendStore.m; path = ../FriendStore.m; sourceTree = "<group>"; };
 		7ECD323416EBBBAF00AA003D /* myFirstApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myFirstApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECD323716EBBBAF00AA003D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7ECD323A16EBBBAF00AA003D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7ECD323D16EBBBAF00AA003D /* myFirstApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myFirstApp-Prefix.pch"; sourceTree = "<group>"; };
 		7ECD323E16EBBBAF00AA003D /* myFirstApp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = myFirstApp.1; sourceTree = "<group>"; };
+		7ECD324516EBBFCA00AA003D /* Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends.h; sourceTree = "<group>"; };
+		7ECD324616EBBFCA00AA003D /* Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 		7ECD323916EBBBAF00AA003D /* myFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				7EBDF56816EBEEBA00166DF3 /* FriendStore.h */,
+				7EBDF56916EBEEBA00166DF3 /* FriendStore.m */,
+				7ECD324516EBBFCA00AA003D /* Friends.h */,
+				7ECD324616EBBFCA00AA003D /* Friends.m */,
 				7ECD323A16EBBBAF00AA003D /* main.m */,
 				7ECD323E16EBBBAF00AA003D /* myFirstApp.1 */,
 				7ECD323C16EBBBAF00AA003D /* Supporting Files */,
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ECD323B16EBBBAF00AA003D /* main.m in Sources */,
+				7ECD324716EBBFCA00AA003D /* Friends.m in Sources */,
+				7EBDF56A16EBEEBA00166DF3 /* FriendStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +254,7 @@
 				7ECD324416EBBBAF00AA003D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
